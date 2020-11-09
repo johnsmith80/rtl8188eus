@@ -21,9 +21,9 @@
 * Up to kernel v5.8+
 ... And a bunch of various wifi chipsets
 
-# Howto build/install
+# Howto build/install | r8188eu.conf
 1. You will need to blacklist another driver in order to use this one.
-2. `echo "blacklist r8188eu" >> "/etc/modprobe.d/realtek.conf"`
+2. `echo "blacklist r8188eu" >> "/etc/modprobe.d/r8188eu.conf"`
 3. `make && make install`
 4. Reboot in order to blacklist and load the new driver/module.
 
